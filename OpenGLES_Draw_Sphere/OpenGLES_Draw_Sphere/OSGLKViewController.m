@@ -63,10 +63,6 @@
     self.baseEffect.texture2d0.target = textureInfo.target;
     self.baseEffect.texture2d0.name = textureInfo.name;
     
-    
-    
-  
- 
 }
 
 //-----------------------------------------------------------
