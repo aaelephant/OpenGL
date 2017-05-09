@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:SQGL_sys_textureDemo/SQGLDemo/SQGLDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SQGL_custom_textureDemo/SQGL_lightDemo/SQGL_lightDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SQGL_custom_textureDemo/SQGL_custom_textureDemo/SQGL_custom_textureDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:QBGLDemo1/QBGLDemo1.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:OpenGLES_Draw_Sphere/OpenGLES_Draw_Sphere.xcodeproj">
    </FileRef>
    <FileRef
