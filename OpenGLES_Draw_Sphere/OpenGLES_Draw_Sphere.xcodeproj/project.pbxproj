@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A13F9D9C1EBB4E4D0030C711 /* PanoramaLaunchImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A13F9D9B1EBB4E4D0030C711 /* PanoramaLaunchImage.jpg */; };
+		A1B511471EBABB010042A62C /* DeviceOritation.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B511461EBABB010042A62C /* DeviceOritation.m */; };
+		F50ED6D91D976EF3001585BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F50ED6D81D976EF3001585BE /* main.m */; };
+		F50ED6DC1D976EF3001585BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F50ED6DB1D976EF3001585BE /* AppDelegate.m */; };
+		F50ED6E21D976EF3001585BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50ED6E01D976EF3001585BE /* Main.storyboard */; };
+		F50ED6E41D976EF3001585BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50ED6E31D976EF3001585BE /* Assets.xcassets */; };
+		F50ED6E71D976EF3001585BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50ED6E51D976EF3001585BE /* LaunchScreen.storyboard */; };
+		F50ED6F01D9770B0001585BE /* OSGLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50ED6EF1D9770B0001585BE /* OSGLKViewController.m */; };
+		F50ED6F51D9787E5001585BE /* earth_light.png in Resources */ = {isa = PBXBuildFile; fileRef = F50ED6F41D9787E5001585BE /* earth_light.png */; };
+		F50ED6F71D978AD7001585BE /* solar-glare1.png in Resources */ = {isa = PBXBuildFile; fileRef = F50ED6F61D978AD7001585BE /* solar-glare1.png */; };
+		F50ED6F91D978C0F001585BE /* earth-diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F50ED6F81D978C0F001585BE /* earth-diffuse.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A13F9D9B1EBB4E4D0030C711 /* PanoramaLaunchImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PanoramaLaunchImage.jpg; sourceTree = "<group>"; };
+		A1B511451EBABB010042A62C /* DeviceOritation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceOritation.h; sourceTree = "<group>"; };
+		A1B511461EBABB010042A62C /* DeviceOritation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceOritation.m; sourceTree = "<group>"; };
+		F50ED6D41D976EF3001585BE /* OpenGLES_Draw_Sphere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLES_Draw_Sphere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50ED6D81D976EF3001585BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F50ED6DA1D976EF3001585BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F50ED6DB1D976EF3001585BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F50ED6E11D976EF3001585BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F50ED6E31D976EF3001585BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F50ED6E61D976EF3001585BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F50ED6E81D976EF3001585BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50ED6EE1D9770B0001585BE /* OSGLKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSGLKViewController.h; sourceTree = "<group>"; };
+		F50ED6EF1D9770B0001585BE /* OSGLKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSGLKViewController.m; sourceTree = "<group>"; };
+		F50ED6F11D977528001585BE /* OSSphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSphere.h; sourceTree = "<group>"; };
+		F50ED6F41D9787E5001585BE /* earth_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth_light.png; sourceTree = "<group>"; };
+		F50ED6F61D978AD7001585BE /* solar-glare1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "solar-glare1.png"; sourceTree = "<group>"; };
+		F50ED6F81D978C0F001585BE /* earth-diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "earth-diffuse.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F50ED6D11D976EF2001585BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F50ED6CB1D976EF2001585BE = {
+			isa = PBXGroup;
+			children = (
+				F50ED6D61D976EF3001585BE /* OpenGLES_Draw_Sphere */,
+				F50ED6D51D976EF3001585BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F50ED6D51D976EF3001585BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F50ED6D41D976EF3001585BE /* OpenGLES_Draw_Sphere.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F50ED6D61D976EF3001585BE /* OpenGLES_Draw_Sphere */ = {
+			isa = PBXGroup;
+			children = (
+				F50ED6F81D978C0F001585BE /* earth-diffuse.jpg */,
+				F50ED6F61D978AD7001585BE /* solar-glare1.png */,
+				F50ED6F41D9787E5001585BE /* earth_light.png */,
+				A13F9D9B1EBB4E4D0030C711 /* PanoramaLaunchImage.jpg */,
+				F50ED6F11D977528001585BE /* OSSphere.h */,
+				F50ED6DA1D976EF3001585BE /* AppDelegate.h */,
+				F50ED6DB1D976EF3001585BE /* AppDelegate.m */,
+				A1B511451EBABB010042A62C /* DeviceOritation.h */,
+				A1B511461EBABB010042A62C /* DeviceOritation.m */,
+				F50ED6EE1D9770B0001585BE /* OSGLKViewController.h */,
+				F50ED6EF1D9770B0001585BE /* OSGLKViewController.m */,
+				F50ED6E01D976EF3001585BE /* Main.storyboard */,
+				F50ED6E31D976EF3001585BE /* Assets.xcassets */,
+				F50ED6E51D976EF3001585BE /* LaunchScreen.storyboard */,
+				F50ED6E81D976EF3001585BE /* Info.plist */,
+				F50ED6D71D976EF3001585BE /* Supporting Files */,
+			);
+			path = OpenGLES_Draw_Sphere;
+			sourceTree = "<group>";
+		};
+		F50ED6D71D976EF3001585BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F50ED6D81D976EF3001585BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F50ED6D31D976EF2001585BE /* OpenGLES_Draw_Sphere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50ED6EB1D976EF3001585BE /* Build configuration list for PBXNativeTarget "OpenGLES_Draw_Sphere" */;
+			buildPhases = (
+				F50ED6D01D976EF2001585BE /* Sources */,
+				F50ED6D11D976EF2001585BE /* Frameworks */,
+				F50ED6D21D976EF2001585BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLES_Draw_Sphere;
+			productName = OpenGLES_Draw_Sphere;
+			productReference = F50ED6D41D976EF3001585BE /* OpenGLES_Draw_Sphere.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F50ED6CC1D976EF2001585BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = xujie;
+				TargetAttributes = {
+					F50ED6D31D976EF2001585BE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = L6EYUBTRJ5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F50ED6CF1D976EF2001585BE /* Build configuration list for PBXProject "OpenGLES_Draw_Sphere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F50ED6CB1D976EF2001585BE;
+			productRefGroup = F50ED6D51D976EF3001585BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F50ED6D31D976EF2001585BE /* OpenGLES_Draw_Sphere */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F50ED6D21D976EF2001585BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50ED6E71D976EF3001585BE /* LaunchScreen.storyboard in Resources */,
+				A13F9D9C1EBB4E4D0030C711 /* PanoramaLaunchImage.jpg in Resources */,
+				F50ED6F51D9787E5001585BE /* earth_light.png in Resources */,
+				F50ED6E41D976EF3001585BE /* Assets.xcassets in Resources */,
+				F50ED6E21D976EF3001585BE /* Main.storyboard in Resources */,
+				F50ED6F71D978AD7001585BE /* solar-glare1.png in Resources */,
+				F50ED6F91D978C0F001585BE /* earth-diffuse.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F50ED6D01D976EF2001585BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50ED6DC1D976EF3001585BE /* AppDelegate.m in Sources */,
+				A1B511471EBABB010042A62C /* DeviceOritation.m in Sources */,
+				F50ED6D91D976EF3001585BE /* main.m in Sources */,
+				F50ED6F01D9770B0001585BE /* OSGLKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F50ED6E01D976EF3001585BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50ED6E11D976EF3001585BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F50ED6E51D976EF3001585BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50ED6E61D976EF3001585BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F50ED6E91D976EF3001585BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F50ED6EA1D976EF3001585BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F50ED6EC1D976EF3001585BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = OpenGLES_Draw_Sphere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xujie.OpenGLES-Draw-Sphere";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F50ED6ED1D976EF3001585BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = OpenGLES_Draw_Sphere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xujie.OpenGLES-Draw-Sphere";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F50ED6CF1D976EF2001585BE /* Build configuration list for PBXProject "OpenGLES_Draw_Sphere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50ED6E91D976EF3001585BE /* Debug */,
+				F50ED6EA1D976EF3001585BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50ED6EB1D976EF3001585BE /* Build configuration list for PBXNativeTarget "OpenGLES_Draw_Sphere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50ED6EC1D976EF3001585BE /* Debug */,
+				F50ED6ED1D976EF3001585BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F50ED6CC1D976EF2001585BE /* Project object */;
+}

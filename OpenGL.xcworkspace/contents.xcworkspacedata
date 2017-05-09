@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:OpenGLES_Draw_Sphere/OpenGLES_Draw_Sphere.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ShaderDemo/ShaderDemo.xcodeproj">
+   </FileRef>
+</Workspace>
