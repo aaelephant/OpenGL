@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A149A5571EC43786009F275A /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = A149A5551EC43786009F275A /* Shader.fsh */; };
+		A149A5581EC43786009F275A /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = A149A5561EC43786009F275A /* Shader.vsh */; };
 		A1CF536B1EC1529B00819098 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CF536A1EC1529B00819098 /* main.m */; };
 		A1CF536E1EC1529B00819098 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CF536D1EC1529B00819098 /* AppDelegate.m */; };
 		A1CF53711EC1529B00819098 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CF53701EC1529B00819098 /* ViewController.m */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A149A5551EC43786009F275A /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		A149A5561EC43786009F275A /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
 		A1CF53661EC1529A00819098 /* ShaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1CF536A1EC1529B00819098 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1CF536C1EC1529B00819098 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 		A1CF53681EC1529A00819098 /* ShaderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A149A5551EC43786009F275A /* Shader.fsh */,
+				A149A5561EC43786009F275A /* Shader.vsh */,
 				A1CF536C1EC1529B00819098 /* AppDelegate.h */,
 				A1CF536D1EC1529B00819098 /* AppDelegate.m */,
 				A1CF536F1EC1529B00819098 /* ViewController.h */,
@@ -247,9 +253,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A149A5571EC43786009F275A /* Shader.fsh in Resources */,
 				A1CF53791EC1529B00819098 /* LaunchScreen.storyboard in Resources */,
 				A1CF53761EC1529B00819098 /* Assets.xcassets in Resources */,
 				A1CF53741EC1529B00819098 /* Main.storyboard in Resources */,
+				A149A5581EC43786009F275A /* Shader.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
